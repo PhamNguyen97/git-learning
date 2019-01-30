@@ -10,6 +10,7 @@ git diff 			//// show all differences (changes) on file
 git branch 			//// show current branch
 git checkout -b <branch name>		//// create new branch
 git checkout <branch name>			//// get to <branch name> branch
+git branch -D <branch name>			//// delete <branch name> branch
 
 git reset HEAD  /// make file(s) in staging area back to working directory
 git checkout -- <file>  //// discard changes in file(s) 
